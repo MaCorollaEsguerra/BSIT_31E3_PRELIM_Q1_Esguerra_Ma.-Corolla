@@ -1,8 +1,5 @@
-namespace TransportChallenge;
-
-public class Vehicle
+using TransportChallenge;
+public abstract class Vehicle()
 {
-    public Vehicle()
-    {
-    }
+    public abstract string Move();
 }
